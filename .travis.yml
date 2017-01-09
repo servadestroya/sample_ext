@@ -25,6 +25,6 @@ deploy:
   provider: releases
   api_key:
     secure: oA+PoBS2zqotnQfPvmc68vz3ke6TEprGa6t4uLYwdHnIMGz3NTdUzXppCaotUnItHSaBhfFM4v3JEtQWU/LgOpvk/VpGW2eNwHau+Z+C/ESgNShFvXK8XU9TubaC1lxhB4D/vBSpqun2d5EA2qJcOpFXm1o7HYlGjLcSSl81Nc/IQ8kP5aKIt/1gHitHwZCBBrsm2QkmDAGtJOaEIvo0G2Xv/LzROHKe9B/JmTtQzgG6w/FN+mbHEBntIfvHgqq39Au95YOfTWai5P4vYQoZohclyhS5Ok8cmIMRbJYA9We4drIbtRsuk4ncX+GW6SXdkIdVkfeMIBVum/A0dM/cogYKr6KACMGBpqrZhNdfA7lh76za4OblYeE2nDee1UYnPhUJ9QZjdNY9ZFqRm4+uodBQHIJzqrGBSz0sYjovK8DpOYuiUH+QyTMeRwafaiRVeHxXlcso91dnEsHuljsbztEPYQm97xgC+KBGzuuaw+yveBde0+C3jo4/D+lpMVI/QWMGBzrjlNnN3VuUQNFx17697HNyZT8upvo0dhreABBhrnLDb5hp5z/HuKLDFhjiVtv/BPc7UwGIyZDEB9FbFxgm2b+LvBdtlvcCa41iYNa+D4CmX5+otL9JH+iAbH00FGmRmY0uMWsbBFFSagZ0FkZVI674mzg3AYu3x747cYI=
-  file: example.zip
+  file: $TRAVIS_BUILD_DIR/build/package/example.zip
   on:
     repo: servadestroya/sample_ext
