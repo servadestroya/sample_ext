@@ -14,7 +14,7 @@ install:
 - git clone https://github.com/alliedmodders/sourcemod.git --recursive -b 1.8-dev
   $TRAVIS_BUILD_DIR/../sourcemod
 - cd $TRAVIS_BUILD_DIR/../
-- wget https://github.com/alliedmodders/sourcemod/blob/master/tools/checkout-deps.sh && chmod +x checkout-deps.sh
+- wget https://raw.githubusercontent.com/alliedmodders/sourcemod/master/tools/checkout-deps.sh && chmod +x checkout-deps.sh
 - ./checkout-deps.sh
 script:
 - mkdir $TRAVIS_BUILD_DIR/build && cd $TRAVIS_BUILD_DIR/build
